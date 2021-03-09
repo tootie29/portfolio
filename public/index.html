@@ -38,24 +38,26 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-    <script type="text/javascript">
-      var onloadCallback = function () {
-        alert("grecaptcha is ready!");
-      };
-    </script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
-    </script>
+   <script type="text/javascript">
+     var onloadCallback = function () {
+       grecaptcha.render('html_element', {
+         'sitekey': '6Lf1AHkaAAAAANp0gWEA3xzHlXI9WMu8QxndCqoE'
+       });
+     };
+   </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!-- <script src="/vendor/jquery/jquery.min.js" async></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" ></script>
-    <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js" async></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js" async></script>
 
     <script src="assets/js/isotope.min.js" async></script>
     <script src="assets/js/owl-carousel.js" async></script>
     <script src="assets/js/lightbox.js" async></script>
     <script src="assets/js/custom.js" async></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer>
+    </script>
   </body>
 </html>
