@@ -49,6 +49,11 @@ export default function contact() {
 										</fieldset>
 										</div>
 										<div className="col-md-12">
+											<fieldset>
+												<div class="g-recaptcha" data-sitekey="6Lf1AHkaAAAAANp0gWEA3xzHlXI9WMu8QxndCqoE"></div>
+											</fieldset>
+										</div>
+										<div className="col-md-12">
 										<fieldset>
 											<button type="submit" id="form-submit" className="button">
 											Send Message
