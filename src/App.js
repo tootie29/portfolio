@@ -13,11 +13,11 @@ class App extends Component {
 
     componentDidMount() {
         let styles = [
-            { src: '/assets/css/lightbox.css' },
-            { src: '/assets/css/owl.css' },
-            { src: '/assets/css/templatemo-style.css' },
-            { src: '/assets/css/fontawesome.css' },
-            { src: '/vendor/bootstrap/css/bootstrap.min.css' },
+            { src: '/portfolio/assets/css/lightbox.css' },
+            { src: '/portfolio/assets/css/owl.css' },
+            { src: '/portfolio/assets/css/templatemo-style.css' },
+            { src: '/portfolio/assets/css/fontawesome.css' },
+            { src: '/portfolio/vendor/bootstrap/css/bootstrap.min.css' },
         ]
 
         styles.map(item => {
@@ -31,11 +31,11 @@ class App extends Component {
         })
 
         let scripts = [
-            { src: '/vendor/bootstrap/js/bootstrap.bundle.min.js' },
-            { src: '/assets/js/isotope.min.js' },
-            { src: '/assets/js/owl-carousel.js' },
-            { src: '/assets/js/lightbox.js' },
-            { src: '/assets/js/custom.js' },
+            { src: '/portfolio/vendor/bootstrap/js/bootstrap.bundle.min.js' },
+            { src: '/portfolio/assets/js/isotope.min.js' },
+            { src: '/portfolio/assets/js/owl-carousel.js' },
+            { src: '/portfolio/assets/js/lightbox.js' },
+            { src: '/portfolio/assets/js/custom.js' },
         ]
 
         scripts.map(item => {
