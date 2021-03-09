@@ -30,21 +30,21 @@ class App extends Component {
             //document.head.appendChild();
         })
 
-        // let scripts = [
-        //     { src: '/vendor/bootstrap/js/bootstrap.bundle.min.js' },
-        //     { src: '/assets/js/isotope.min.js' },
-        //     { src: '/assets/js/owl-carousel.js' },
-        //     { src: '/assets/js/lightbox.js' },
-        //     { src: '/assets/js/custom.js' },
-        // ]
+        let scripts = [
+            { src: '/vendor/bootstrap/js/bootstrap.bundle.min.js' },
+            { src: '/assets/js/isotope.min.js' },
+            { src: '/assets/js/owl-carousel.js' },
+            { src: '/assets/js/lightbox.js' },
+            { src: '/assets/js/custom.js' },
+        ]
 
-        // scripts.map(item => {
-        //     const script = document.createElement('script')
-        //     script.type = 'text/jsx'
-        //     script.src = item.src
-        //     script.async = SVGComponentTransferFunctionElement
-        //     document.body.appendChild(script)
-        // });
+        scripts.map(item => {
+            const script = document.createElement('script')
+            script.type = 'text/jsx'
+            script.src = item.src
+            script.async = SVGComponentTransferFunctionElement
+            document.body.appendChild(script)
+        });
 
     }
 
