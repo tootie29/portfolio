@@ -50,7 +50,7 @@ export default function contact() {
 										</div>
 										<div className="col-md-12">
 											<fieldset>
-												<div class="g-recaptcha" data-sitekey="6Lf1AHkaAAAAANp0gWEA3xzHlXI9WMu8QxndCqoE"></div>
+												<div id="html_element"></div>
 											</fieldset>
 										</div>
 										<div className="col-md-12">
